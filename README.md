@@ -1,31 +1,34 @@
-# @dxh/vue-pinia
+# @mdxh/vue-toastification
 
-Install Pinia to vue3 using dxh wrapper
+Install VueToastification to vue3 using dxh wrapper
 
 ## Uses
 
 ### Installation
 
-Just use the below command to install Pinia.
+Just use the below command to install VueToastification.
 
 ```sh
-npm i @mdxh/vue-pinia@latest
+npm i @mdxh/vue-toastification@latest
 ```
 
-### Create a pinia instance
+### Create a VueToastification instance
 
-Create a pinia instance (the root store) and pass it to the app as a plugin:
+Create a VueToastification instance (the root store) and pass it to the app as a plugin:
 
 ```sh
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import App from './App.vue'
+import { createApp } from "vue";
+import Toast, { type PluginOptions } from "vue-toastification";
+// Import the CSS or use your own!
+import "vue-toastification/dist/index.css";
 
-const pinia = createPinia()
-const app = createApp(App)
+const app = createApp(...);
 
-app.use(pinia)
-app.mount('#app')
+const options: PluginOptions = {
+    // You can set your default options here
+};
+
+app.use(Toast, options);
 ```
 
 ### Start your project
@@ -34,6 +37,6 @@ app.mount('#app')
 npm run dev
 ```
 
-## Pinia Documentation
+## VueToastification Documentation
 
-See [Pinia Documentation](https://pinia.vuejs.org/introduction.html).
+See [VueToastification Documentation](https://github.com/Maronato/vue-toastification).

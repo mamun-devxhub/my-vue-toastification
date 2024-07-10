@@ -17,7 +17,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'vue-pinia'
+      name: 'vue-toastification'
     },
     rollupOptions: {
       external: ['vue'],
