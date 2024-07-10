@@ -2,7 +2,7 @@
 
 Install VueToastification to vue3 using dxh wrapper
 
-## Uses
+## Usage
 
 ### Installation
 
@@ -12,9 +12,9 @@ Just use the below command to install VueToastification.
 npm i @mdxh/vue-toastification@latest
 ```
 
-### Create a VueToastification instance
+### Plugin registration
 
-Create a VueToastification instance (the root store) and pass it to the app as a plugin:
+Create a VueToastification instance and pass it to the app as a plugin:
 
 ```sh
 import { createApp } from "vue";

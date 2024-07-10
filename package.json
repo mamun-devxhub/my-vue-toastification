@@ -1,6 +1,6 @@
 {
   "name": "@mdxh/vue-toastification",
-  "version": "0.0.0sdfsf",
+  "version": "0.0.1",
   "private": false,
   "author": "DEVxHUB",
   "description": "Install vue-toastification to vue3 using dxh wrapper",
@@ -28,7 +28,7 @@
     "vue": "^3.0.1"
   },
   "dependencies": {
-    "vue": "^3.0.1",
+    "vue": "^3.4.29",
     "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
